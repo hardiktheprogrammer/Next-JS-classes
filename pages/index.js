@@ -5,7 +5,7 @@ function Home() {
 
   const handleClick = () => {
     console.log('placing your Order');
-    router.replace('/product');
+    router.replace('/Product');
   };
   return (
     <div>
@@ -16,7 +16,9 @@ function Home() {
       <Link href="/Product">
         <h2>Product</h2>
       </Link>
-      <button onClick={handleClick}>PlaceOrder</button>
+      <button className="bg-blue-400 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" onClick={handleClick}>
+        Place Order
+      </button>
     </div>
   );
 }
