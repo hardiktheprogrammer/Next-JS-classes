@@ -1,3 +1,5 @@
 {
-    "nuxt.isNuxtApp": false
+    "nuxt.isNuxtApp": false,
+    "livePreview.customExternalBrowser": "Chrome",
+    "liveServer.settings.CustomBrowser": "chrome"
 }
