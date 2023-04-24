@@ -6,7 +6,7 @@ function Home() {
       <h1>NextJS Pre-Rendering</h1>
 
       <Link href="/user">
-        <a>User</a>
+        <h1>User</h1>
       </Link>
     </>
   );
