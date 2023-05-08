@@ -1,4 +1,5 @@
-import User from '../components/user';
+// import User from '../components/user';
+// import [ProductID] from '../components/ProductID';
 
 function UserList({ users }) {
   return (
