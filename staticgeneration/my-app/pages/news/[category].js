@@ -1,7 +1,7 @@
 function ArticleListByCategory({ articles, category }) {
   return (
     <>
-      <h1>Showing new</h1>
+      <h1>Showing news for Ca</h1>
     </>
   );
 }
